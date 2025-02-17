@@ -1,122 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event WebPage</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        a {
-            text-decoration: none;
-        }
-    </style>
-</head>
-<body>
-    <header class="header">
-        <h1 class="heading" >
-            Welcome to Super TechCon 2025
-        </h1>
-        <p class="heading">
-            The ultimate Technology and programming Conference
-        </p>
-        <nav class="nav">
-            <a href="#About" class="a">About</a>    
-            <a href="#Schedule" class="a">Schedule</a> 
-            <a href="#speakers" class="a">Speakers</a> 
-            <a href="#Contact" class="a">Contact</a>
+body{
     
-        </nav>
-    </header>
- 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+
+header{
+    line-height: 01cm;
+    background: green;
+    color: white;
+    text-align: center;
+    padding: 01px;
     
-    <section id="about">
-        <h2>
-            About the Event
-        </h2>
-        <p class="one">
-            Anmol TechCon 2025 brings together leading minds in programming, tech and innovation.join us for a day of insightful talks , hands-on-workshops, and an opporunity to network with fellow people and professions from all around the world
-        </p>
-    </section>
+}
+nav{
+    background: rgb(55, 50, 50);
+    padding: 10px;
+    color: white;
+    word-spacing: 1cm;
+    outline-color: aliceblue;
+}
 
-
-    <section id="Schedule">
-        <h2>
-            Event Schedule
-        </h2>
-        <table width="100%">
-            <thead>
-                <th>
-                       <h3>Time</h3> 
-                </th>
-
-
-                <th>
-                    <h3>Session</h3>
-                </th>
-                <th>
-                    <h3>Contest</h3>
-                </th>
-            </thead>
-            
-            
-            <tr>
-                <td>
-                    <p>
-                        <ol>
-                            <li>9:00AM</li>
-                            <li>10:30AM</li>
-                            <li>1:00PM</li>
-                            <li>2:00PM</li>
+nav a{
+    font-size:20px;
+    color: white;
+    }
+nav a:hover{
+    color:red;
     
-                        </ol>
-                    </p>
-                </td>
-                
-                 
-                
-                
-                <td>
-             
-                    <p>Opening Keynote <br>Understanding AI and Machine Learning <br> Lunch Break <br>Exploring the future of Cloud Computing </p>
-                </td>
+}
+
+section{
+    text-align: center;
+    background: whitesmoke;
+    box-shadow: 0px 2px 10px black;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 0.2cm;
+    line-height: 30px;
+    margin: top 70px; 
+    margin-bottom: 70px;
+    border: 0;
+    
+}
+section h2{
+    text-align: left;
+    color :blue
+}
+
+section :hover{
+    box-shadow: 0px 6px 18px black;
+}
+table {
+    width: 100%;
+}
 
 
-                <td>
-                    <p>
-                        GFG coding Platform <br>Mr Arvind Kumar <br>------- ----- ------ ----- <br>Ms Neha Gupta
-                    </p>
-                </td>
-               
-            </tr>
-               
-        </table>
-    </section>
 
+section b{
+    color: blue;
+}
 
-    <section id="speakers">
-        <h2>Meet the Speakers</h2>
-        <ul>
-            <li><b>Dr.Radhika Sharma:</b> AI Expert and Researcher</li>
-            <li><b>Mr.Arvind Kumar:</b> Senior Data Scientist at TechWave</li>
-            <li><b>Ms.Neha Gupta: </b>Cloud Computing Specialist at cloudTech</li>
-            <li><b>Mr.Sandeep Reddy:</b> Full Stack Developer and Open-Source Contributor</li>
+section li{
+    text-align: left;
+}
 
-        </ul>
-    </section>
-       
-    <section id="Contact">
-        <h2>Contact Us</h2>
-        <form action="thank you.html">
-            <label for="name">Name: </label>
-            <input type="text" required><br><br>
-            <label for="Email">Email: </label>
-            <input type="email" required>
-            <br><br>
-            <label for="message">Message:</label><br>
-            <textarea name="" id="message" cols="50" rows="10" required></textarea>
-            <br><br>
-            <input type="submit" value="send" >
-        </form>
-    </section>
-</body>
-</html>
+section h2{
+    padding: 20px;
+}
+
+section p,ul,btn{
+    padding-bottom: 011px;
+}
