@@ -102,4 +102,19 @@ table th {
 .form{
     text-align: left;
     padding-left: 01cm;
+    
+
+}
+
+.asd{
+    color: #000;
+    background-color: red;
+    width : 100px;
+    height: 50px;
+    text-align: center;
+}
+
+.asd:hover{
+    background-color: rgb(97, 60, 208);
+    color: white;
 }
